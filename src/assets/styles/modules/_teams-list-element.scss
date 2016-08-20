@@ -1,0 +1,54 @@
+.teams-list-element {
+	background-color: rgba(0,0,0,.1);
+	padding: 10px;
+	@include hover-fade(1s);
+	margin-bottom: 15px;
+
+	&:hover {
+		background-color: rgba(0,0,0,.5);
+
+		a {
+			text-decoration: none !important;
+		}
+	}
+
+	h2 {
+		margin-top: 0;
+		color: whitesmoke;
+		font-size: 1.3em;
+	}
+
+	.header {
+		position: relative;
+		padding-right: 30px;
+		border-bottom: 1px solid rgba(255,255,255,.2);
+		margin-bottom: 10px;
+
+		img {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 32px;
+		}
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+		
+		li {
+			display: inline-block;
+			width: 50%;
+			font-size: 1.2em;
+			
+			&.key {
+				color: white;
+			}
+			
+			&.value {
+				color: #5BC0DE;
+				font-weight: 700;
+			}
+		}
+	}
+}

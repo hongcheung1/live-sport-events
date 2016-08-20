@@ -1,0 +1,44 @@
+header {
+	.navbar {
+		&.navbar-default {
+			background: none;
+			@include border-radius(0);
+			border: none;
+			border-bottom: 1px solid rgba(255,255,255,.1);
+
+			.navbar-brand {
+				color: whitesmoke;
+
+				img {
+					width: 40px;
+					margin-top: -7px;
+					display: inline-block;
+					margin-right: 10px;
+				}
+			}
+
+			.navbar-nav {
+				li {
+
+					&.live {
+						a {}
+					}
+
+					a {
+						color: whitesmoke;
+
+						img {
+							width: 10px;
+							margin-top: -3px;
+							margin-right: 5px;
+						}
+						
+						&:hover {
+							color: $color-blue-light-1;
+						}
+					}
+				}
+			}
+		}
+	}
+}

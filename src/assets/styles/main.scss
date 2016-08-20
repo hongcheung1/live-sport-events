@@ -1,0 +1,36 @@
+// Tarik Fojnica
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+@import "dependencies/bootstrap";
+@import "variables";
+@import "mixins";
+@import "helpers";
+@import "modules/header";
+
+body {
+	background: #E9EAF4 url(../images/bg.jpg) center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	font-family: 'Raleway', sans-serif;
+}
+
+.app-container {
+	min-height: 100vh;
+}
+
+@import "pages/events";
+@import "modules/count-down";
+@import "modules/table";
+@import "modules/live-navigation";
+@import "modules/dynamic-element";
+@import "modules/stopwatch";
+@import "modules/standings-table";
+@import "modules/events-list-element";
+@import "modules/teams-list-element";
+@import "modules/google-map";
+@import "modules/get-started";

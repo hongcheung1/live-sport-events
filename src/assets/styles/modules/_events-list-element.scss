@@ -1,0 +1,53 @@
+.events-list-element {
+	background-color: rgba(0,0,0,.4);
+	padding: 10px;
+	@include hover-fade(1s);
+	margin-bottom: 15px;
+
+	&:hover {
+		background-color: rgba(0,0,0,.5);
+
+		a {
+		text-decoration: none !important;
+		}
+	}
+
+	.btn {
+		display: block;
+		border: 1px solid #a3a3a3;
+		background-color: rgba(255,255,255,.1);
+		@include border-radius(2px);
+		color: whitesmoke;
+		margin-top: 5px;
+		font-weight: 700;
+
+		img {
+			width: 1em;
+			margin-top: -3px;
+		}
+	}
+
+	h2 {
+		margin-top: 0;
+		color: whitesmoke;
+		font-size: 1.4em;
+	}
+
+	p {
+		color: whitesmoke;
+		font-size: 1.3em;
+		padding: 5px 0;
+		margin-bottom: 0;
+		border-bottom: 1px solid rgba(255,255,255,.05);
+
+		&:last-child {
+			border-bottom: none;
+		}
+
+		img {
+			width: 1em;
+			margin-top: -2px;
+			margin-right: 5px ;
+		}
+	}
+}

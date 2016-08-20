@@ -1,0 +1,29 @@
+table {
+	&.table {
+		border: 1px solid rgba($color-blue-light-1, .2);
+		color: whitesmoke;
+		margin-top: 15px;
+
+		tr {
+			&.hidden {
+				display: none;
+			}
+
+			th {
+				border: none;
+				padding: 10px;
+				border-bottom: 1px solid $color-blue-light-1;
+			}
+
+			td {
+				border: none;
+				padding: 10px;
+				border-bottom: 1px solid rgba(255,255,255,.1);
+
+				img {
+					width: 16px;
+				}
+			}
+		}
+	}
+}

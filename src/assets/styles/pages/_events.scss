@@ -1,0 +1,48 @@
+.page {
+	&.events {
+		.intro {
+			padding: 15px;
+			border: 1px solid rgba($color-blue-light-1, .2);
+			color: whitesmoke;
+
+			h1 {
+				margin: 0;
+				color: whitesmoke;
+				font-weight: 300;
+				margin-bottom: 10px;
+
+				img {
+					width: 32px;
+					margin-top: -5px;
+				}
+			}
+
+			ul {
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+
+				li {
+					position: relative;
+					padding-left: 30px;
+					font-size: 1.15em;
+					margin-bottom: 13px;
+
+					img {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 21px;
+					}
+				}
+			}
+
+			p {
+				&.desc {
+					border-top: 1px solid rgba(255,255,255,.1);
+					padding-top: 10px;
+				}
+			}
+		}
+	}
+}
